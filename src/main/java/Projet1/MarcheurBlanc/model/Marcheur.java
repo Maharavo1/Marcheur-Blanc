@@ -6,6 +6,8 @@ import java.util.Random;
 import java.util.Set;
 
 public class Marcheur(Carte carte , String name) {
+
+
     public List<Lieu> marcher(Lieu lieuDeDépart, Lieu lieuArriver) {
         var chiffresAléatoires = new Random();
         List<Lieu> lieus = new ArrayList<>();
