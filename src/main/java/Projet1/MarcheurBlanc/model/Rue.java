@@ -1,4 +1,5 @@
 package Projet1.MarcheurBlanc.model;
+
 public class Rue {
     private final String nom;
     private final Lieu lieuA;

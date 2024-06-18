@@ -6,5 +6,8 @@ public class Lieu {
     public Lieu(String nom) {
         this.nom = nom;
     }
-}
 
+    public String getNom() {
+        return nom;
+    }
+}
